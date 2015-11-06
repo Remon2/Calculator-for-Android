@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/show_history"
+        android:title="Show history"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height"/>
+
+    <item android:id="@+id/clear_history"
+        android:title="Clear history"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height"/>
+</menu>
